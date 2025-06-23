@@ -13,9 +13,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
+@SuppressWarnings("all")
 public class VersesChatBubbleData implements IChatBubbleData {
-    public static final ResourceLocation ID = ResourceLocation.fromNamespaceAndPath(WoodlandFoxVerses.MOD_ID, "verses");
-    public static final ResourceLocation FONT = ResourceLocation.fromNamespaceAndPath(WoodlandFoxVerses.MOD_ID, "chunqiu");
+    public static final ResourceLocation ID = new ResourceLocation(WoodlandFoxVerses.MOD_ID, "verses");
+    public static final ResourceLocation FONT = new ResourceLocation(WoodlandFoxVerses.MOD_ID, "chunqiu");
     public static final int EXIST_TICK = 25 * 30;
 
     private final Component title;
