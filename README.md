@@ -10,4 +10,4 @@
 
 ## 鸣谢
 - chinese-poetry 项目：<https://github.com/chinese-poetry/chinese-poetry>
-- 霞鹜文楷开源字体：<https://github.com/lxgw/LxgwWenKai>
+- 寒蝉书体开源字体：<https://github.com/Warren2060/ChillCalligraphy>
