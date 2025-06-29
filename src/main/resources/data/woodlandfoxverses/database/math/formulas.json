@@ -1,0 +1,981 @@
+[
+    {
+        "formula": "a + b = b + a",
+        "english": "Commutative law of addition",
+        "chinese": "加法交换律"
+    },
+    {
+        "formula": "a \\times b = b \\times a",
+        "english": "Commutative law of multiplication",
+        "chinese": "乘法交换律"
+    },
+    {
+        "formula": "(a + b) + c = a + (b + c)",
+        "english": "Associative law of addition",
+        "chinese": "加法结合律"
+    },
+    {
+        "formula": "(a \\times b) \\times c = a \\times (b \\times c)",
+        "english": "Associative law of multiplication",
+        "chinese": "乘法结合律"
+    },
+    {
+        "formula": "a \\times (b + c) = a \\times b + a \\times c",
+        "english": "Distributive law of multiplication over addition",
+        "chinese": "乘法对加法的分配律"
+    },
+    {
+        "formula": "a - b = a + (-b)",
+        "english": "Definition of subtraction",
+        "chinese": "减法的定义"
+    },
+    {
+        "formula": "a \\div b = a \\times \\frac{1}{b}\\ (b \\neq 0)",
+        "english": "Definition of division",
+        "chinese": "除法的定义"
+    },
+    {
+        "formula": "S = a \\times b",
+        "english": "Area of a rectangle",
+        "chinese": "长方形的面积"
+    },
+    {
+        "formula": "S = \\frac{1}{2} a \\times h",
+        "english": "Area of a triangle",
+        "chinese": "三角形的面积"
+    },
+    {
+        "formula": "C = 2\\pi r",
+        "english": "Circumference of a circle",
+        "chinese": "圆的周长公式"
+    },
+    {
+        "formula": "S = \\pi r^2",
+        "english": "Area of a circle",
+        "chinese": "圆的面积公式"
+    },
+    {
+        "formula": "S = a \\times a = a^2",
+        "english": "Area of a square",
+        "chinese": "正方形的面积"
+    },
+    {
+        "formula": "P = 4a",
+        "english": "Perimeter of a square",
+        "chinese": "正方形的周长"
+    },
+    {
+        "formula": "P = 2(a + b)",
+        "english": "Perimeter of a rectangle",
+        "chinese": "长方形的周长"
+    },
+    {
+        "formula": "S = \\frac{(a + b)h}{2}",
+        "english": "Area of a trapezoid",
+        "chinese": "梯形的面积"
+    },
+    {
+        "formula": "S = a \\times h",
+        "english": "Area of a parallelogram",
+        "chinese": "平行四边形的面积"
+    },
+    {
+        "formula": "V = a^3",
+        "english": "Volume of a cube",
+        "chinese": "正方体的体积"
+    },
+    {
+        "formula": "x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}",
+        "english": "Formula for finding roots of quadratic equation",
+        "chinese": "一元二次方程求根公式"
+    },
+    {
+        "formula": "a^2 + b^2 = c^2",
+        "english": "Pythagorean theorem",
+        "chinese": "勾股定理"
+    },
+    {
+        "formula": "\\int_a^b f(x)dx = F(b) - F(a)",
+        "english": "Fundamental theorem of calculus",
+        "chinese": "微积分基本定理"
+    },
+    {
+        "formula": "a_n = a_1 + (n-1)d",
+        "english": "Nth term of an arithmetic sequence",
+        "chinese": "等差数列第n项公式"
+    },
+    {
+        "formula": "S_n = \\frac{n}{2}(a_1 + a_n)",
+        "english": "Sum of the first n terms of an arithmetic sequence",
+        "chinese": "等差数列前n项和公式"
+    },
+    {
+        "formula": "a_n = a_1 r^{n-1}",
+        "english": "Nth term of a geometric sequence",
+        "chinese": "等比数列第n项公式"
+    },
+    {
+        "formula": "S_n = a_1 \\frac{1-r^n}{1-r}",
+        "english": "Sum of the first n terms of a geometric sequence (r ≠ 1)",
+        "chinese": "等比数列前n项和公式（r ≠ 1）"
+    },
+    {
+        "formula": "\\log_a{b} = \\frac{\\ln{b}}{\\ln{a}}",
+        "english": "Change of base formula for logarithms",
+        "chinese": "对数换底公式"
+    },
+    {
+        "formula": "\\binom{n}{k} = \\frac{n!}{k!(n-k)!}",
+        "english": "Number of combinations (n choose k)",
+        "chinese": "组合数公式"
+    },
+    {
+        "formula": "e^x = \\sum_{n=0}^{\\infty} \\frac{x^n}{n!}",
+        "english": "Taylor expansion for exponential function",
+        "chinese": "指数函数的泰勒展开式"
+    },
+    {
+        "formula": "\\sin^2 x + \\cos^2 x = 1",
+        "english": "Pythagorean trigonometric identity",
+        "chinese": "三角恒等式"
+    },
+    {
+        "formula": "\\sin(a \\pm b) = \\sin a \\cos b \\pm \\cos a \\sin b",
+        "english": "Sine addition and subtraction formulas",
+        "chinese": "正弦加减法公式"
+    },
+    {
+        "formula": "\\cos(a \\pm b) = \\cos a \\cos b \\mp \\sin a \\sin b",
+        "english": "Cosine addition and subtraction formulas",
+        "chinese": "余弦加减法公式"
+    },
+    {
+        "formula": "\\tan(a \\pm b) = \\frac{\\tan a \\pm \\tan b}{1 \\mp \\tan a \\tan b}",
+        "english": "Tangent addition and subtraction formulas",
+        "chinese": "正切加减法公式"
+    },
+    {
+        "formula": "\\frac{d}{dx}x^n = nx^{n-1}",
+        "english": "Power rule for differentiation",
+        "chinese": "幂函数求导法则"
+    },
+    {
+        "formula": "\\frac{d}{dx}\\sin x = \\cos x",
+        "english": "Derivative of sine function",
+        "chinese": "正弦函数的导数"
+    },
+    {
+        "formula": "\\frac{d}{dx}\\cos x = -\\sin x",
+        "english": "Derivative of cosine function",
+        "chinese": "余弦函数的导数"
+    },
+    {
+        "formula": "\\frac{d}{dx}e^x = e^x",
+        "english": "Derivative of exponential function",
+        "chinese": "指数函数的导数"
+    },
+    {
+        "formula": "\\frac{d}{dx}\\ln x = \\frac{1}{x}",
+        "english": "Derivative of natural logarithm",
+        "chinese": "自然对数的导数"
+    },
+    {
+        "formula": "\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\ (n \\neq -1)",
+        "english": "Integral of power function",
+        "chinese": "幂函数的积分"
+    },
+    {
+        "formula": "\\int e^{ax} dx = \\frac{1}{a}e^{ax} + C",
+        "english": "Integral of exponential function",
+        "chinese": "指数函数的积分"
+    },
+    {
+        "formula": "\\int \\sin x dx = -\\cos x + C",
+        "english": "Integral of sine function",
+        "chinese": "正弦函数的积分"
+    },
+    {
+        "formula": "\\int \\cos x dx = \\sin x + C",
+        "english": "Integral of cosine function",
+        "chinese": "余弦函数的积分"
+    },
+    {
+        "formula": "\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}",
+        "english": "Sum of the first n positive integers",
+        "chinese": "前n个正整数的和"
+    },
+    {
+        "formula": "\\sum_{k=1}^{n} k^2 = \\frac{n(n+1)(2n+1)}{6}",
+        "english": "Sum of the squares of the first n positive integers",
+        "chinese": "前n个正整数的平方和"
+    },
+    {
+        "formula": "\\sum_{k=1}^{n} k^3 = \\left[\\frac{n(n+1)}{2}\\right]^2",
+        "english": "Sum of the cubes of the first n positive integers",
+        "chinese": "前n个正整数的立方和"
+    },
+    {
+        "formula": "a^m \\cdot a^n = a^{m+n}",
+        "english": "Product of powers with same base",
+        "chinese": "同底数幂的乘法"
+    },
+    {
+        "formula": "(a^m)^n = a^{mn}",
+        "english": "Power of a power",
+        "chinese": "幂的幂"
+    },
+    {
+        "formula": "(ab)^n = a^n b^n",
+        "english": "Power of a product",
+        "chinese": "积的幂"
+    },
+    {
+        "formula": "\\sqrt[n]{a} = a^{1/n}",
+        "english": "Definition of n-th root",
+        "chinese": "n次方根的定义"
+    },
+    {
+        "formula": "\\log_a{1} = 0",
+        "english": "Logarithm of 1 is 0",
+        "chinese": "1的对数为0"
+    },
+    {
+        "formula": "\\log_a{a} = 1",
+        "english": "Logarithm of base is 1",
+        "chinese": "以自身为底的对数为1"
+    },
+    {
+        "formula": "\\log_a{bc} = \\log_a{b} + \\log_a{c}",
+        "english": "Logarithm of a product",
+        "chinese": "对数的乘法公式"
+    },
+    {
+        "formula": "\\log_a{\\frac{b}{c}} = \\log_a{b} - \\log_a{c}",
+        "english": "Logarithm of a quotient",
+        "chinese": "对数的除法公式"
+    },
+    {
+        "formula": "\\log_a{b^n} = n \\log_a{b}",
+        "english": "Logarithm of a power",
+        "chinese": "幂的对数"
+    },
+    {
+        "formula": "\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1",
+        "english": "Limit of sin x over x as x approaches 0",
+        "chinese": "sinx/x在x趋近于0时的极限"
+    },
+    {
+        "formula": "\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e",
+        "english": "Definition of Euler's number",
+        "chinese": "欧拉数的定义"
+    },
+    {
+        "formula": "|a+b| \\leq |a| + |b|",
+        "english": "Triangle inequality",
+        "chinese": "三角不等式"
+    },
+    {
+        "formula": "\\frac{a}{b} = \\frac{c}{d} \\implies ad = bc",
+        "english": "Proportion property (cross multiplication)",
+        "chinese": "比例的性质（交叉相乘）"
+    },
+    {
+        "formula": "(a+b)^2 = a^2 + 2ab + b^2",
+        "english": "Square of a binomial (addition)",
+        "chinese": "二项式的平方（加法）"
+    },
+    {
+        "formula": "(a-b)^2 = a^2 - 2ab + b^2",
+        "english": "Square of a binomial (subtraction)",
+        "chinese": "二项式的平方（减法）"
+    },
+    {
+        "formula": "(a+b)(a-b) = a^2 - b^2",
+        "english": "Product of sum and difference",
+        "chinese": "和与差的积"
+    },
+    {
+        "formula": "a^3 + b^3 = (a + b)(a^2 - ab + b^2)",
+        "english": "Sum of cubes",
+        "chinese": "立方和公式"
+    },
+    {
+        "formula": "a^3 - b^3 = (a - b)(a^2 + ab + b^2)",
+        "english": "Difference of cubes",
+        "chinese": "立方差公式"
+    },
+    {
+        "formula": "\\sin 2x = 2 \\sin x \\cos x",
+        "english": "Double angle formula for sine",
+        "chinese": "正弦的二倍角公式"
+    },
+    {
+        "formula": "\\cos 2x = \\cos^2 x - \\sin^2 x",
+        "english": "Double angle formula for cosine",
+        "chinese": "余弦的二倍角公式"
+    },
+    {
+        "formula": "\\tan 2x = \\frac{2\\tan x}{1 - \\tan^2 x}",
+        "english": "Double angle formula for tangent",
+        "chinese": "正切的二倍角公式"
+    },
+    {
+        "formula": "\\sin^2 x = \\frac{1 - \\cos 2x}{2}",
+        "english": "Power reduction formula for sine squared",
+        "chinese": "正弦平方的降幂公式"
+    },
+    {
+        "formula": "\\cos^2 x = \\frac{1 + \\cos 2x}{2}",
+        "english": "Power reduction formula for cosine squared",
+        "chinese": "余弦平方的降幂公式"
+    },
+    {
+        "formula": "\\tan^2 x = \\frac{1 - \\cos 2x}{1 + \\cos 2x}",
+        "english": "Power reduction formula for tangent squared",
+        "chinese": "正切平方的降幂公式"
+    },
+    {
+        "formula": "\\tan(x+y) = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}",
+        "english": "Tangent of sum formula",
+        "chinese": "正切的和公式"
+    },
+    {
+        "formula": "\\frac{d}{dx}\\tan x = \\sec^2 x",
+        "english": "Derivative of tangent function",
+        "chinese": "正切函数的导数"
+    },
+    {
+        "formula": "\\int \\frac{1}{x} dx = \\ln|x| + C",
+        "english": "Integral of 1/x",
+        "chinese": "1/x的积分"
+    },
+    {
+        "formula": "\\lim_{n \\to \\infty}\\left(1+\\frac{x}{n}\\right)^n = e^x",
+        "english": "Exponential limit definition",
+        "chinese": "指数极限定义"
+    },
+    {
+        "formula": "\\lim_{x \\to 0} \\frac{1-\\cos x}{x^2} = \\frac{1}{2}",
+        "english": "Limit of (1-cosx)/x^2 as x approaches 0",
+        "chinese": "（1-cosx）/x^2在x趋近于0时的极限"
+    },
+    {
+        "formula": "f(x) = f(a) + f'(a)(x-a) + \\frac{f''(a)}{2!}(x-a)^2 + \\cdots",
+        "english": "Taylor series expansion of f(x) at x=a",
+        "chinese": "函数在x=a处的泰勒展开式"
+    },
+    {
+        "formula": "f(x, y) = \\frac{\\partial f}{\\partial x} dx + \\frac{\\partial f}{\\partial y} dy",
+        "english": "Total differential of a function of two variables",
+        "chinese": "二元函数的全微分"
+    },
+    {
+        "formula": "\\frac{\\partial z}{\\partial x}",
+        "english": "Partial derivative of z with respect to x",
+        "chinese": "z关于x的偏导数"
+    },
+    {
+        "formula": "\\frac{\\partial^2 f}{\\partial x^2}",
+        "english": "Second order partial derivative of f with respect to x",
+        "chinese": "f关于x的二阶偏导数"
+    },
+    {
+        "formula": "\\nabla f = \\left(\\frac{\\partial f}{\\partial x}, \\frac{\\partial f}{\\partial y}, \\frac{\\partial f}{\\partial z}\\right)",
+        "english": "Gradient of a scalar function in three dimensions",
+        "chinese": "三元函数的梯度"
+    },
+    {
+        "formula": "\\text{div}\\, \\vec{F} = \\nabla \\cdot \\vec{F} = \\frac{\\partial F_1}{\\partial x} + \\frac{\\partial F_2}{\\partial y} + \\frac{\\partial F_3}{\\partial z}",
+        "english": "Divergence of a vector field in three dimensions",
+        "chinese": "三维向量场的散度"
+    },
+    {
+        "formula": "\\text{curl}\\, \\vec{F} = \\nabla \\times \\vec{F}",
+        "english": "Curl of a vector field",
+        "chinese": "向量场的旋度"
+    },
+    {
+        "formula": "\\Delta f = \\nabla^2 f = \\frac{\\partial^2 f}{\\partial x^2} + \\frac{\\partial^2 f}{\\partial y^2} + \\frac{\\partial^2 f}{\\partial z^2}",
+        "english": "Laplacian of a function in three dimensions",
+        "chinese": "三元函数的拉普拉斯算子"
+    },
+    {
+        "formula": "\\iint_D f(x, y)\\,dx\\,dy",
+        "english": "Double integral over region D",
+        "chinese": "区域D上的二重积分"
+    },
+    {
+        "formula": "\\iiint_E f(x, y, z)\\,dx\\,dy\\,dz",
+        "english": "Triple integral over region E",
+        "chinese": "区域E上的三重积分"
+    },
+    {
+        "formula": "\\frac{\\partial u}{\\partial t} = k \\frac{\\partial^2 u}{\\partial x^2}",
+        "english": "One-dimensional heat equation, a classic partial differential equation",
+        "chinese": "一维热传导方程，经典偏微分方程"
+    },
+    {
+        "formula": "\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}",
+        "english": "One-dimensional wave equation",
+        "chinese": "一维波动方程"
+    },
+    {
+        "formula": "\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0",
+        "english": "Laplace's equation in two variables",
+        "chinese": "二维拉普拉斯方程"
+    },
+    {
+        "formula": "\\nabla^2 u = f(x, y, z)",
+        "english": "Poisson equation in three dimensions",
+        "chinese": "三维泊松方程"
+    },
+    {
+        "formula": "u(x, t) = \\sum_{n=1}^\\infty A_n \\sin\\left(\\frac{n\\pi x}{L}\\right) e^{-k\\left(\\frac{n\\pi}{L}\\right)^2 t}",
+        "english": "Separation of variables solution for the heat equation with Dirichlet boundary conditions",
+        "chinese": "热方程的变量分离法解（Dirichlet边界条件）"
+    },
+    {
+        "formula": "\\int_{C} \\vec{F} \\cdot d\\vec{r}",
+        "english": "Line integral of a vector field along curve C",
+        "chinese": "沿曲线C的向量场线积分"
+    },
+    {
+        "formula": "\\iint_{S} \\vec{F} \\cdot d\\vec{S}",
+        "english": "Surface integral of a vector field over surface S",
+        "chinese": "向量场在曲面S上的面积分"
+    },
+    {
+        "formula": "\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} + \\frac{\\partial^2 u}{\\partial z^2} = 0",
+        "english": "Laplace's equation in three variables",
+        "chinese": "三维拉普拉斯方程"
+    },
+    {
+        "formula": "\\frac{\\partial^2 u}{\\partial t^2} - c^2 \\nabla^2 u = 0",
+        "english": "Wave equation in multiple dimensions",
+        "chinese": "多维波动方程"
+    },
+    {
+        "formula": "u(x, y) = X(x)Y(y)",
+        "english": "Separation of variables form for PDEs",
+        "chinese": "偏微分方程的变量分离形式"
+    },
+    {
+        "formula": "\\nabla \\cdot (\\nabla u) = \\nabla^2 u",
+        "english": "Definition of Laplacian operator",
+        "chinese": "拉普拉斯算子的定义"
+    },
+    {
+        "formula": "\\det(AB) = \\det(A)\\det(B)",
+        "english": "Determinant of the product of two matrices",
+        "chinese": "两个矩阵乘积的行列式"
+    },
+    {
+        "formula": "(A^{-1})^T = (A^T)^{-1}",
+        "english": "Inverse of the transpose of a matrix",
+        "chinese": "矩阵转置的逆"
+    },
+    {
+        "formula": "\\det(A^T) = \\det(A)",
+        "english": "Determinant of the transpose of a matrix",
+        "chinese": "矩阵转置的行列式"
+    },
+    {
+        "formula": "\\det(A) = 0 \\iff A\\text{ is singular}",
+        "english": "A matrix is singular if and only if its determinant is zero",
+        "chinese": "行列式为0当且仅当矩阵奇异"
+    },
+    {
+        "formula": "\\text{rank}(A) = \\text{number of linearly independent rows (or columns)}",
+        "english": "Definition of matrix rank",
+        "chinese": "矩阵秩的定义"
+    },
+    {
+        "formula": "A\\vec{x} = \\lambda \\vec{x}",
+        "english": "Eigenvalue equation for matrix A",
+        "chinese": "矩阵的特征值方程"
+    },
+    {
+        "formula": "\\det\\begin{pmatrix} a & b & c \\\\ d & e & f \\\\ g & h & i \\end{pmatrix} = aei + bfg + cdh - ceg - bdi - afh",
+        "english": "Determinant of a 3x3 matrix.",
+        "chinese": "三阶矩阵的行列式公式。"
+    },
+    {
+        "formula": "\\det\\begin{pmatrix} a_{11} & a_{12} & a_{13} & a_{14} \\\\ a_{21} & a_{22} & a_{23} & a_{24} \\\\ a_{31} & a_{32} & a_{33} & a_{34} \\\\ a_{41} & a_{42} & a_{43} & a_{44} \\end{pmatrix} = \\sum_{j=1}^4 (-1)^{1+j} a_{1j} M_{1j}",
+        "english": "Determinant of a 4x4 matrix by cofactor expansion along the first row.",
+        "chinese": "四阶矩阵按第一行展开的行列式公式。"
+    },
+    {
+        "formula": "m\\ddot{x} + c\\dot{x} + kx = 0",
+        "english": "General second-order linear damped motion equation (mass-spring-damper system).",
+        "chinese": "一般二阶线性阻尼运动方程（质量-弹簧-阻尼系统）。"
+    },
+    {
+        "formula": "v_{n+1} = v_n + [ -2\\zeta\\omega_0 v_n - \\omega_0^2 (x_n - x_{\\text{target}}) ] \\Delta t",
+        "english": "Discrete velocity update for critically/underdamped spring to a target (game-friendly).",
+        "chinese": "朝目标的阻尼弹簧数值模拟中常用的速度更新公式。"
+    },
+    {
+        "formula": "\\sum_{i=1}^{n} a_i b_i",
+        "english": "Dot product of two vectors",
+        "chinese": "两个向量的点积"
+    },
+    {
+        "formula": "\\vec{a} \\cdot \\vec{b} = |\\vec{a}| |\\vec{b}| \\cos \\theta",
+        "english": "Dot product in terms of magnitude and angle",
+        "chinese": "点积的模和夹角表示"
+    },
+    {
+        "formula": "\\vec{a} \\times \\vec{b}",
+        "english": "Cross product of two vectors",
+        "chinese": "两个向量的叉积"
+    },
+    {
+        "formula": "\\vec{a} \\times \\vec{b} = |\\vec{a}| |\\vec{b}| \\sin \\theta\\ \\vec{n}",
+        "english": "Cross product in terms of magnitude and angle",
+        "chinese": "叉积的模和夹角表示"
+    },
+    {
+        "formula": "\\sqrt{a^2 + b^2}",
+        "english": "Distance formula in 2D",
+        "chinese": "二维空间距离公式"
+    },
+    {
+        "formula": "\\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}",
+        "english": "Distance between two points (x1, y1) and (x2, y2)",
+        "chinese": "两点间距离公式"
+    },
+    {
+        "formula": "y = mx + b",
+        "english": "Slope-intercept form of a straight line",
+        "chinese": "直线斜截式方程"
+    },
+    {
+        "formula": "y - y_1 = m(x - x_1)",
+        "english": "Point-slope form of a straight line",
+        "chinese": "直线点斜式方程"
+    },
+    {
+        "formula": "Ax + By + C = 0",
+        "english": "General equation of a straight line",
+        "chinese": "直线的一般式方程"
+    },
+    {
+        "formula": "(x-h)^2 + (y-k)^2 = r^2",
+        "english": "Equation of a circle with center (h, k) and radius r",
+        "chinese": "已知圆心半径的圆的方程"
+    },
+    {
+        "formula": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1",
+        "english": "Standard equation of an ellipse",
+        "chinese": "椭圆标准方程"
+    },
+    {
+        "formula": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+        "english": "Standard equation of a hyperbola",
+        "chinese": "双曲线标准方程"
+    },
+    {
+        "formula": "y^2 = 4ax",
+        "english": "Standard equation of a parabola",
+        "chinese": "抛物线标准方程"
+    },
+    {
+        "formula": "\\sum_{k=0}^n \\binom{n}{k} = 2^n",
+        "english": "Sum of binomial coefficients",
+        "chinese": "二项式系数和"
+    },
+    {
+        "formula": "(a+b)^n = \\sum_{k=0}^n \\binom{n}{k} a^{n-k} b^k",
+        "english": "Binomial theorem",
+        "chinese": "二项式定理"
+    },
+    {
+        "formula": "P(A \\cap B) = P(A)P(B|A)",
+        "english": "Multiplication rule for probability",
+        "chinese": "概率乘法公式"
+    },
+    {
+        "formula": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B)",
+        "english": "Addition rule for probability",
+        "chinese": "概率加法公式"
+    },
+    {
+        "formula": "P(A|B) = \\frac{P(A \\cap B)}{P(B)}",
+        "english": "Conditional probability formula",
+        "chinese": "条件概率公式"
+    },
+    {
+        "formula": "P(A') = 1 - P(A)",
+        "english": "Probability of the complement event",
+        "chinese": "对立事件的概率"
+    },
+    {
+        "formula": "E[X] = \\sum_{i} x_i P(x_i)",
+        "english": "Expected value of a discrete random variable",
+        "chinese": "离散型随机变量的期望"
+    },
+    {
+        "formula": "\\text{Var}(X) = E[X^2] - (E[X])^2",
+        "english": "Variance of a random variable",
+        "chinese": "随机变量的方差"
+    },
+    {
+        "formula": "f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}",
+        "english": "Probability density function of the normal distribution",
+        "chinese": "正态分布概率密度函数"
+    },
+    {
+        "formula": "S = \\frac{1}{n-1} \\sum_{i=1}^n (x_i - \\bar{x})^2",
+        "english": "Sample variance formula",
+        "chinese": "样本方差公式"
+    },
+    {
+        "formula": "\\frac{d}{dx}f(g(x)) = f'(g(x))g'(x)",
+        "english": "Chain rule for derivatives",
+        "chinese": "导数的链式法则"
+    },
+    {
+        "formula": "\\frac{d}{dx}(uv) = u'v + uv'",
+        "english": "Product rule for derivatives",
+        "chinese": "导数的乘积法则"
+    },
+    {
+        "formula": "\\frac{d}{dx}\\left(\\frac{u}{v}\\right) = \\frac{u'v - uv'}{v^2}",
+        "english": "Quotient rule for derivatives",
+        "chinese": "导数的商法则"
+    },
+    {
+        "formula": "\\int_{a}^{b} f(x) dx \\approx \\sum_{i=1}^{n} f(x_i) \\Delta x",
+        "english": "Numerical integration (Riemann sum)",
+        "chinese": "数值积分（黎曼和）"
+    },
+    {
+        "formula": "|A \\cup B| = |A| + |B| - |A \\cap B|",
+        "english": "Inclusion-exclusion principle for two sets",
+        "chinese": "两个集合的容斥原理"
+    },
+    {
+        "formula": "(a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2ac + 2bc",
+        "english": "Square of a trinomial",
+        "chinese": "三项式的平方公式"
+    },
+    {
+        "formula": "\\frac{a_1}{b_1} = \\frac{a_2}{b_2} = \\cdots = \\frac{a_n}{b_n}",
+        "english": "General form of a proportion",
+        "chinese": "比例的通式"
+    },
+    {
+        "formula": "\\lim_{n \\to \\infty} \\frac{1}{n} = 0",
+        "english": "Limit of 1/n as n approaches infinity",
+        "chinese": "1/n在n趋于无穷时的极限"
+    },
+    {
+        "formula": "A \\subseteq B \\iff \\forall x (x \\in A \\implies x \\in B)",
+        "english": "A is a subset of B if and only if every element of A is also an element of B.",
+        "chinese": "A是B的子集，当且仅当A的每个元素都是B的元素。"
+    },
+    {
+        "formula": "A \\cup B = \\{x \\mid x \\in A \\text{ or } x \\in B\\}",
+        "english": "The union of A and B is the set of elements that are in A or in B.",
+        "chinese": "A与B的并集是所有属于A或B的元素组成的集合。"
+    },
+    {
+        "formula": "A \\cap B = \\{x \\mid x \\in A \\text{ and } x \\in B\\}",
+        "english": "The intersection of A and B is the set of elements that are in both A and B.",
+        "chinese": "A与B的交集是所有既属于A又属于B的元素组成的集合。"
+    },
+    {
+        "formula": "A - B = \\{x \\mid x \\in A \\text{ and } x \\notin B\\}",
+        "english": "The difference of A and B is the set of elements that are in A but not in B.",
+        "chinese": "A与B的差集是所有属于A但不属于B的元素组成的集合。"
+    },
+    {
+        "formula": "A^c = U - A",
+        "english": "The complement of A is the set of elements in the universal set U that are not in A.",
+        "chinese": "A的补集是全集U中所有不属于A的元素组成的集合。"
+    },
+    {
+        "formula": "(A \\cup B)^c = A^c \\cap B^c",
+        "english": "De Morgan's law: The complement of the union of A and B is the intersection of their complements.",
+        "chinese": "德摩根律：A和B的并集的补集等于A的补集与B的补集的交集。"
+    },
+    {
+        "formula": "(A \\cap B)^c = A^c \\cup B^c",
+        "english": "De Morgan's law: The complement of the intersection of A and B is the union of their complements.",
+        "chinese": "德摩根律：A和B的交集的补集等于A的补集与B的补集的并集。"
+    },
+    {
+        "formula": "A \\cup \\emptyset = A",
+        "english": "The union of any set and the empty set is the set itself.",
+        "chinese": "任意集合与空集的并集仍为该集合本身。"
+    },
+    {
+        "formula": "A \\cap \\emptyset = \\emptyset",
+        "english": "The intersection of any set and the empty set is the empty set.",
+        "chinese": "任意集合与空集的交集仍为空集。"
+    },
+    {
+        "formula": "A \\cup A = A",
+        "english": "The union of a set with itself is itself.",
+        "chinese": "集合与自身的并集等于自身。"
+    },
+    {
+        "formula": "A \\cap A = A",
+        "english": "The intersection of a set with itself is itself.",
+        "chinese": "集合与自身的交集等于自身。"
+    },
+    {
+        "formula": "A \\cup B = B \\cup A",
+        "english": "Union is commutative.",
+        "chinese": "并集满足交换律。"
+    },
+    {
+        "formula": "A \\cap B = B \\cap A",
+        "english": "Intersection is commutative.",
+        "chinese": "交集满足交换律。"
+    },
+    {
+        "formula": "(A \\cup B) \\cup C = A \\cup (B \\cup C)",
+        "english": "Union is associative.",
+        "chinese": "并集满足结合律。"
+    },
+    {
+        "formula": "(A \\cap B) \\cap C = A \\cap (B \\cap C)",
+        "english": "Intersection is associative.",
+        "chinese": "交集满足结合律。"
+    },
+    {
+        "formula": "A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)",
+        "english": "Intersection distributes over union.",
+        "chinese": "交集对并集满足分配律。"
+    },
+    {
+        "formula": "A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)",
+        "english": "Union distributes over intersection.",
+        "chinese": "并集对交集满足分配律。"
+    },
+    {
+        "formula": "P(A) = 2^{|A|}",
+        "english": "The cardinality of the power set of A is 2 to the power of the cardinality of A.",
+        "chinese": "A的幂集的基数是2的A的基数次方。"
+    },
+    {
+        "formula": "|A \\cup B| = |A| + |B| - |A \\cap B|",
+        "english": "Cardinality of the union of two finite sets.",
+        "chinese": "有限集合A与B并集的基数公式。"
+    },
+    {
+        "formula": "f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}",
+        "english": "Definition of the derivative",
+        "chinese": "导数的定义"
+    },
+    {
+        "formula": "|E| \\leq \\frac{n(n-1)}{2}",
+        "english": "The maximum number of edges in a simple undirected graph with n vertices.",
+        "chinese": "一个有n个顶点的简单无向图最多有 n(n-1)/2 条边。"
+    },
+    {
+        "formula": "\\sum_{v \\in V} deg(v) = 2|E|",
+        "english": "The sum of the degrees of all vertices in an undirected graph equals twice the number of edges.",
+        "chinese": "无向图中所有顶点的度之和等于边数的两倍。"
+    },
+    {
+        "formula": "q = a + bi + cj + dk",
+        "english": "A quaternion q is composed of a real part a and three imaginary parts b, c, d.",
+        "chinese": "四元数q由实部a和虚部b、c、d组成。"
+    },
+    {
+        "formula": "i^2 = j^2 = k^2 = ijk = -1",
+        "english": "The fundamental relations of quaternion units i, j, k.",
+        "chinese": "四元数单位i, j, k的基本关系。"
+    },
+    {
+        "formula": "q = \\cos\\left(\\frac{\\theta}{2}\\right) + (xi + yj + zk)\\sin\\left(\\frac{\\theta}{2}\\right)",
+        "english": "A unit quaternion representing a rotation by θ around the unit vector (x, y, z).",
+        "chinese": "单位四元数表示绕单位向量(x, y, z)旋转θ角。"
+    },
+    {
+        "formula": "v' = qvq^{-1}",
+        "english": "Rotation of vector v (as a pure quaternion) by quaternion q.",
+        "chinese": "用四元数q对向量v（视为纯四元数）进行旋转。"
+    },
+    {
+        "formula": "C_n = \\frac{n(n-1)}{2}",
+        "english": "The number of edges in a complete graph with n vertices.",
+        "chinese": "n阶完全图的边数为 n(n-1)/2。"
+    },
+    {
+        "formula": "A^k_{ij} = \\text{number of walks of length k from vertex i to j}",
+        "english": "The (i,j) entry of the k-th power of the adjacency matrix gives the number of walks of length k from vertex i to j.",
+        "chinese": "邻接矩阵的k次幂的(i,j)元素表示从顶点i到顶点j长度为k的步数。"
+    },
+    {
+        "formula": "|V| - |E| + |F| = 2",
+        "english": "Euler's formula for planar graphs: vertices minus edges plus faces equals 2.",
+        "chinese": "欧拉公式：平面图的顶点数减去边数加上面数等于2。"
+    },
+    {
+        "formula": "a \\mid b \\iff \\exists k \\in \\mathbb{Z},\\ b = ak",
+        "english": "a divides b if and only if there exists an integer k such that b = ak.",
+        "chinese": "a整除b当且仅当存在整数k使b=ak。"
+    },
+    {
+        "formula": "\\gcd(a, b) = \\max\\{d \\mid d \\mid a \\text{ and } d \\mid b\\}",
+        "english": "Greatest common divisor of a and b.",
+        "chinese": "最大公约数定义。"
+    },
+    {
+        "formula": "\\text{If}\\ \\gcd(a, b) = 1,\\ \\exists x, y \\in \\mathbb{Z}\\ \\text{such that}\\ ax + by = 1",
+        "english": "Bezout's identity for coprime integers.",
+        "chinese": "裴蜀等式（若a与b互素，则存在整数x,y使ax+by=1）。"
+    },
+    {
+        "formula": "\\operatorname{lcm}(a, b) = \\frac{ab}{\\gcd(a, b)}",
+        "english": "Least common multiple of a and b.",
+        "chinese": "最小公倍数公式。"
+    },
+    {
+        "formula": "a \\equiv b \\pmod{n} \\iff n \\mid (a-b)",
+        "english": "Definition of congruence modulo n.",
+        "chinese": "模n同余的定义。"
+    },
+    {
+        "formula": "\\phi(n) = |\\{1 \\leq k \\leq n\\mid \\gcd(k,n) = 1\\}|",
+        "english": "Euler's totient function.",
+        "chinese": "欧拉函数定义。"
+    },
+    {
+        "formula": "a^{\\phi(n)} \\equiv 1 \\pmod{n}\\ (\\gcd(a,n)=1)",
+        "english": "Euler's theorem.",
+        "chinese": "欧拉定理。"
+    },
+    {
+        "formula": "a^p \\equiv a \\pmod{p}",
+        "english": "Fermat's little theorem (p is prime).",
+        "chinese": "费马小定理（p为素数）。"
+    },
+    {
+        "formula": "\\sum_{d|n} \\phi(d) = n",
+        "english": "Sum of Euler's totient function over all divisors equals n.",
+        "chinese": "欧拉函数在所有正约数上的和等于n。"
+    },
+    {
+        "formula": "\\mu(n) = \\begin{cases} 1 & n=1 \\\\ 0 & \\text{if } n \\text{ has a squared prime factor} \\\\ (-1)^k & n \\text{ is a product of } k \\text{ distinct primes} \\end{cases}",
+        "english": "Definition of the Möbius function.",
+        "chinese": "莫比乌斯函数的定义。"
+    },
+    {
+        "formula": "\\sigma(n) = \\sum_{d|n} d",
+        "english": "Sum of divisors function.",
+        "chinese": "约数和函数。"
+    },
+    {
+        "formula": "\\pi(x) \\sim \\frac{x}{\\log x}",
+        "english": "Prime number theorem (asymptotic estimate for the number of primes ≤ x).",
+        "chinese": "素数定理，素数分布的渐近公式。"
+    },
+    {
+        "field": "Algebra",
+        "formula": "f(x+y) = f(x) + f(y)",
+        "english": "Cauchy equation for additive functions.",
+        "chinese": "阿贝尔-柯西方程。"
+    },
+    {
+        "field": "Topology",
+        "formula": "B(x_0, r) = \\{ x \\in X \\mid d(x, x_0) < r \\}",
+        "english": "Open ball in a metric space.",
+        "chinese": "度量空间中的开球。"
+    },
+    {
+        "field": "Topology",
+        "formula": "U \\text{ is open } \\iff \\forall x \\in U, \\exists \\varepsilon > 0, B(x, \\varepsilon) \\subseteq U",
+        "english": "Definition of open set in a metric space.",
+        "chinese": "度量空间中开集的定义。"
+    },
+    {
+        "field": "Topology",
+        "formula": "\\overline{A} = \\bigcap_{F \\supseteq A, F \\text{ closed}} F",
+        "english": "Closure of a set: intersection of all closed supersets.",
+        "chinese": "集合A的闭包。"
+    },
+    {
+        "field": "Topology",
+        "formula": "A \\text{ is closed } \\iff X \\setminus A \\text{ is open}",
+        "english": "A set is closed if and only if its complement is open.",
+        "chinese": "集合闭集的定义。"
+    },
+    {
+        "field": "Topology",
+        "formula": "f \\text{ is continuous} \\iff \\forall U \\subseteq Y \\text{ open}, f^{-1}(U) \\text{ is open in } X",
+        "english": "Topological definition of continuity.",
+        "chinese": "连续映射的拓扑定义。"
+    },
+    {
+        "field": "Topology",
+        "formula": "\\chi = V - E + F",
+        "english": "Euler characteristic for polyhedra (V: vertices, E: edges, F: faces).",
+        "chinese": "欧拉示性数。"
+    },
+    {
+        "field": "Topology",
+        "formula": "\\bigcup_{\\alpha \\in I} U_\\alpha \\text{ is open if every } U_\\alpha \\text{ is open}",
+        "english": "Arbitrary unions of open sets are open.",
+        "chinese": "任意多个开集的并仍为开集。"
+    },
+    {
+        "field": "Topology",
+        "formula": "\\bigcap_{i=1}^n U_i \\text{ is open if every } U_i \\text{ is open}",
+        "english": "Finite intersections of open sets are open.",
+        "chinese": "有限多个开集的交仍为开集。"
+    },
+    {
+        "formula": "\\frac{1}{\\pi} = \\frac{2\\sqrt{2}}{9801} \\sum_{k=0}^{\\infty} \\frac{(4k)! (1103 + 26390k)}{(k!)^4 396^{4k}}",
+        "english": "Ramanujan's remarkable series for 1/π, used in high-precision calculations of π.",
+        "chinese": "拉马努金关于1/π的级数，用于高精度计算π。"
+    },
+    {
+        "formula": "\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}",
+        "english": "Basel problem solution, rediscovered and expanded by Ramanujan.",
+        "chinese": "巴塞尔问题的解，被拉马努金重新发现并扩展。"
+    },
+    {
+        "formula": "\\sum_{n=0}^{\\infty} \\frac{(\\frac{1}{2})_n^3}{n!^3}(6n+1)\\frac{1}{4^n} = \\frac{4}{\\pi}",
+        "english": "Another Ramanujan series for 1/π.",
+        "chinese": "拉马努金提出的又一个1/π级数。"
+    },
+    {
+        "formula": "e^{\\pi \\sqrt{163}} \\approx 262537412640768743.99999999999925",
+        "english": "Ramanujan's almost integer, a famous example of an 'almost integer' from modular functions.",
+        "chinese": "拉马努金的近似整数，模函数中的著名“近整数”。"
+    },
+    {
+        "formula": "\\frac{1}{\\pi} = \\frac{2\\sqrt{2}}{99^2} \\sum_{k=0}^{\\infty} \\frac{(4k)! (21460k+1123)}{(k!)^4 396^{4k}}",
+        "english": "A variant of Ramanujan's series for 1/π.",
+        "chinese": "拉马努金关于1/π的另一种级数。"
+    },
+    {
+        "formula": "1729 = 1^3 + 12^3 = 9^3 + 10^3",
+        "english": "The famous 'taxicab number', highlighted by Ramanujan.",
+        "chinese": "著名的“出租车数”，由拉马努金提出。"
+    },
+    {
+        "formula": "\\sigma(n) = \\sum_{d|n} d",
+        "english": "Ramanujan's study of the divisor function, where σ(n) is the sum of the divisors of n.",
+        "chinese": "拉马努金对因子函数的研究，σ(n)表示n的所有因子的和。"
+    },
+    {
+        "formula": "p(n) \\sim \\frac{1}{4n\\sqrt{3}} \\exp\\left(\\pi\\sqrt{\\frac{2n}{3}}\\right)",
+        "english": "Ramanujan's asymptotic formula for the partition function p(n).",
+        "chinese": "拉马努金关于分割函数p(n)的渐近公式。"
+    },
+    {
+        "formula": "\\sum_{n=1}^{\\infty} \\frac{n}{e^{2\\pi n}-1} = \\frac{1}{24} - \\frac{1}{8\\pi}",
+        "english": "A Ramanujan series involving exponential and π.",
+        "chinese": "拉马努金关于指数与π的级数。"
+    },
+    {
+        "formula": "\\zeta(s) = 2^s \\pi^{s-1} \\sin\\left(\\frac{\\pi s}{2}\\right) \\Gamma(1-s) \\zeta(1-s)",
+        "english": "Functional equation of the Riemann zeta function, studied by Ramanujan.",
+        "chinese": "黎曼ζ函数的函数方程，拉马努金曾深入研究。"
+    }
+]

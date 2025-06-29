@@ -10,4 +10,7 @@
 
 ## 鸣谢
 - chinese-poetry 项目：<https://github.com/chinese-poetry/chinese-poetry>
+- 常用英语词汇表：<https://github.com/mahavivo/english-wordlists>
+- Inspirational Quotes：<https://github.com/vinitshahdeo/inspirational-quotes>
 - 寒蝉书体开源字体：<https://github.com/Warren2060/ChillCalligraphy>
+- 数学公式由 GPT-4.1 生成
