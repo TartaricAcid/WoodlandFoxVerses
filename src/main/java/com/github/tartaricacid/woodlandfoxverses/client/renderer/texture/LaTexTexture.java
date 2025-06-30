@@ -32,7 +32,7 @@ public class LaTexTexture extends AbstractTexture {
     }
 
     private void doLoad() {
-        TeXIcon icon = latex.createTeXIcon(TeXConstants.STYLE_DISPLAY, 32, TeXConstants.UNIT_PT);
+        TeXIcon icon = latex.createTeXIcon(TeXConstants.STYLE_DISPLAY, 36, TeXConstants.UNIT_PT | TeXFormula.ITALIC);
         this.width = icon.getIconWidth();
         this.height = icon.getIconHeight();
         BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
