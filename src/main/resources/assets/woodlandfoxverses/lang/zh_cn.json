@@ -1,1 +1,17 @@
-{}
+{
+  "config.woodlandfoxverses.general": "林间狐咏",
+  "config.woodlandfoxverses.general.global_enable": "全局启用",
+  "config.woodlandfoxverses.general.global_enable.tooltip": "全局启用/禁用“林间狐咏”模组的所有功能。",
+  "config.woodlandfoxverses.general.bubble_add_interval": "气泡添加间隔",
+  "config.woodlandfoxverses.general.bubble_add_interval.tooltip": "添加气泡的间隔（以 tick 为单位）。",
+  "config.woodlandfoxverses.general.bubble_show_duration": "气泡显示时长",
+  "config.woodlandfoxverses.general.bubble_show_duration.tooltip": "气泡显示的持续时间（以 tick 为单位）。",
+  "config.woodlandfoxverses.general.show_math_formula": "显示数学公式",
+  "config.woodlandfoxverses.general.show_math_formula.tooltip": "是否在气泡中显示数学公式。",
+  "config.woodlandfoxverses.general.show_poetry": "显示诗歌",
+  "config.woodlandfoxverses.general.show_poetry.tooltip": "是否在气泡中显示诗歌。",
+  "config.woodlandfoxverses.general.show_words": "显示单词",
+  "config.woodlandfoxverses.general.show_words.tooltip": "是否在气泡中显示单词。",
+  "config.woodlandfoxverses.general.words_type": "单词类型",
+  "config.woodlandfoxverses.general.words_type.tooltip": "气泡中显示的单词类型。"
+}

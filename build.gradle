@@ -77,8 +77,8 @@ dependencies {
     }
 
     implementation fg.deobf('curse.maven:touhou-little-maid-355044:6657436-sources-6657441')
+    implementation fg.deobf('maven.modrinth:cloth-config:11.1.136+forge')
 
-    runtimeOnly fg.deobf('maven.modrinth:cloth-config:11.1.136+forge')
     runtimeOnly fg.deobf('maven.modrinth:jei:15.20.0.112-forge')
     runtimeOnly fg.deobf('maven.modrinth:patchouli:1.20.1-84.1-forge')
     runtimeOnly fg.deobf('maven.modrinth:jade:11.12.3+forge')

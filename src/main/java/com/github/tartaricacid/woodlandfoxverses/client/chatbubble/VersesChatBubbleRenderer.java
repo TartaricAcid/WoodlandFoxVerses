@@ -55,29 +55,29 @@ public class VersesChatBubbleRenderer implements IChatBubbleRenderer {
 
     @Override
     public int getHeight() {
-        return this.height + 8;
+        return this.height + 10;
     }
 
     @Override
     public int getWidth() {
-        return this.width + 8;
+        return this.width + 12;
     }
 
     @Override
     public void render(EntityMaidRenderer renderer, EntityGraphics graphics) {
         if (this.position == Position.LEFT) {
-            graphics.blit(this.bg, -12, this.getHeight() - 15, 97, 0, 37, 27);
+            graphics.blit(this.bg, -12, this.getHeight() - 17, 97, 0, 37, 27);
         } else {
-            graphics.blit(this.bg, this.getWidth() - 39, this.getHeight() - 9, 48, 0, 49, 20);
+            graphics.blit(this.bg, this.getWidth() - 39, this.getHeight() - 11, 48, 0, 49, 20);
         }
 
-        int y = 2;
-        graphics.drawString(font, this.title, 4, y, 0x000000, false);
+        int y = 4;
+        graphics.drawString(font, this.title, 6, y, 0x000000, false);
         y += font.lineHeight + 2;
-        graphics.drawString(font, this.author, 4, y, 0x000000, false);
+        graphics.drawString(font, this.author, 6, y, 0x000000, false);
         y += font.lineHeight + 6;
         for (FormattedCharSequence sequence : this.split) {
-            graphics.drawString(font, sequence, 4, y, 0x000000, false);
+            graphics.drawString(font, sequence, 6, y, 0x000000, false);
             y += font.lineHeight + 2;
         }
     }

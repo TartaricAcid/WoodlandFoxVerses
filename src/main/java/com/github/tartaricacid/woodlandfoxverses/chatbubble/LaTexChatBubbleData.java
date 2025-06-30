@@ -4,6 +4,7 @@ import com.github.tartaricacid.touhoulittlemaid.client.renderer.entity.chatbubbl
 import com.github.tartaricacid.touhoulittlemaid.entity.chatbubble.IChatBubbleData;
 import com.github.tartaricacid.woodlandfoxverses.WoodlandFoxVerses;
 import com.github.tartaricacid.woodlandfoxverses.client.chatbubble.LaTexChatBubbleRenderer;
+import com.github.tartaricacid.woodlandfoxverses.config.ModGeneralConfig;
 import com.github.tartaricacid.woodlandfoxverses.resource.math.MathFormula;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.FriendlyByteBuf;
@@ -18,7 +19,6 @@ public class LaTexChatBubbleData implements IChatBubbleData {
     public static final ResourceLocation EN_FONT = new ResourceLocation(WoodlandFoxVerses.MOD_ID, "libertinus_sans");
     public static final ResourceLocation ZH_FONT = new ResourceLocation(WoodlandFoxVerses.MOD_ID, "chunqiu");
     public static final ResourceLocation BG = new ResourceLocation(WoodlandFoxVerses.MOD_ID, "textures/words.png");
-    public static final int EXIST_TICK = 15 * 30;
 
     private final String formula;
     private final Component enName;
@@ -41,7 +41,7 @@ public class LaTexChatBubbleData implements IChatBubbleData {
 
     @Override
     public int existTick() {
-        return EXIST_TICK;
+        return ModGeneralConfig.BUBBLE_SHOW_DURATION.get();
     }
 
     @Override
