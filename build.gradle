@@ -53,6 +53,19 @@ neoForge {
     }
 }
 
+configurations {
+    runtimeClasspath.extendsFrom localRuntime
+
+    // 自定义一个 minecraftLibrary，方便引入需要 jarJar 的库
+    mcLib
+    implementation {
+        extendsFrom mcLib
+    }
+    additionalRuntimeClasspath {
+        extendsFrom mcLib
+    }
+}
+
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
@@ -72,10 +85,12 @@ repositories {
 }
 
 dependencies {
+    mcLib jarJar('org.scilab.forge:jlatexmath:1.0.7')
+
     implementation 'curse.maven:touhou-little-maid-355044:6613831-sources-6613865'
+    implementation "maven.modrinth:cloth-config:15.0.128+neoforge"
 
     runtimeOnly "maven.modrinth:jei:19.7.0.92-neoforge"
-    runtimeOnly "maven.modrinth:cloth-config:15.0.128+neoforge"
     runtimeOnly "maven.modrinth:jade:15.0.5+neoforge"
     runtimeOnly "maven.modrinth:patchouli:1.21-87-neoforge"
 }

@@ -1,4 +1,4 @@
-package com.github.tartaricacid.woodlandfoxverses.poetry;
+package com.github.tartaricacid.woodlandfoxverses.resource.poetry;
 
 import com.google.gson.annotations.SerializedName;
 import org.apache.commons.lang3.StringUtils;

@@ -1,1 +1,17 @@
-{}
+{
+  "config.woodlandfoxverses.general": "Woodland Fox Verses",
+  "config.woodlandfoxverses.general.global_enable": "Global Enable",
+  "config.woodlandfoxverses.general.global_enable.tooltip": "Enable or disable all Woodland Fox Verses features globally.",
+  "config.woodlandfoxverses.general.bubble_add_interval": "Bubble Add Interval",
+  "config.woodlandfoxverses.general.bubble_add_interval.tooltip": "The interval (in ticks) at which bubbles are added.",
+  "config.woodlandfoxverses.general.bubble_show_duration": "Bubble Show Duration",
+  "config.woodlandfoxverses.general.bubble_show_duration.tooltip": "The duration (in ticks) for which bubbles are shown.",
+  "config.woodlandfoxverses.general.show_math_formula": "Show Math Formula",
+  "config.woodlandfoxverses.general.show_math_formula.tooltip": "Whether to show math formulas in bubbles.",
+  "config.woodlandfoxverses.general.show_poetry": "Show Poetry",
+  "config.woodlandfoxverses.general.show_poetry.tooltip": "Whether to show poetry in bubbles.",
+  "config.woodlandfoxverses.general.show_words": "Show Words",
+  "config.woodlandfoxverses.general.show_words.tooltip": "Whether to show words in bubbles.",
+  "config.woodlandfoxverses.general.words_type": "Words Type",
+  "config.woodlandfoxverses.general.words_type.tooltip": "The type of words to show in bubbles."
+}
