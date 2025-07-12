@@ -1,6 +1,6 @@
 package com.github.tartaricacid.woodlandfoxverses.resource.math;
 
-import org.apache.commons.compress.utils.Lists;
+import com.google.common.collect.Lists;
 
 import javax.annotation.Nullable;
 import java.util.List;
